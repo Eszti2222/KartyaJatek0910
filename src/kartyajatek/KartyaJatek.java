@@ -21,6 +21,8 @@ public class KartyaJatek {
     private static void indito() {
         osszeallit();
         kirak();
+        beker();
+        kever();
     }
     public static void kirak(){
         for(int i =1; i< pakli.length; i++){
@@ -42,5 +44,22 @@ public class KartyaJatek {
         for (int i =0; i <3 ; i++){
         pakli[db++] = szinek[3] + "_" + ertekek[i];
         }
+    }
+    
+    public void beker(){
+        
+    }
+    
+    public void kever(){
+        boolean jo;
+        int oszlop;
+        do{
+            System.out.println("Melyik oszlop (1-3): ");
+            oszlop= sc.nextInt();
+            jo= oszlop >= 1 && oszlop <= 3;
+            
+        }
+        while (!jo);
+        retrun oszlop;
     }
 }
