@@ -1,20 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package kartyajatek;
 
-/**
- *
- * @author NagyEszterErzsébet(S
- */
 public class KartyaJatek {
 
-    /**
-     * @param args the command line arguments
-     */
+    String[] szinek = {"P", "T", "Z", "M"};
+    String[] ertekek = {"Ász", "Kir", "Fel", "X", "IX", "VIII"};
+    static String[] pakli = new String[24];  
+    static String[] oszlop1 = new String[8];  
+    static String[] oszlop2 = new String[8];  
+    static String[] oszlop3 = new String[8];
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        osszeallit();
+        kirak();
     }
-    
+
 }
